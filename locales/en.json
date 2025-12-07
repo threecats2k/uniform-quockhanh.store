@@ -29,13 +29,17 @@
     "nav": {
       "home": "Home",
       "about": "About",
+      "rooms": "Rooms",
       "services": "Services",
-      "contact": "Contact"
+      "gallery": "Gallery",
+      "contact": "Contact",
+      "booking": "Booking",
+      "menu": "Menu"
     },
     "footer": {
       "companyDesc": "CÔNG TY TNHH THƯƠNG MẠI, DỊCH VỤ, KHÁCH SẠN CẦU GIẤY - Premium accommodation experience in Cau Giay, Hanoi",
       "address": "No. 18, Alley 6/41 Tran Quoc Hoan Street, Dich Vong Hau Ward, Cau Giay District, Hanoi",
-      "email": "sharkdive05@gmail.com",
+      "email": "cghotel1206@gmail.com",
       "services": "Services",
       "info": "Information",
       "support": "Support",

@@ -25,13 +25,17 @@
     "nav": {
       "home": "Trang chủ",
       "about": "Giới thiệu",
+      "rooms": "Phòng nghỉ",
       "services": "Dịch vụ",
-      "contact": "Liên hệ"
+      "gallery": "Thư viện ảnh",
+      "contact": "Liên hệ",
+      "booking": "Đặt phòng",
+      "menu": "Menu"
     },
     "footer": {
       "companyDesc": "CÔNG TY TNHH THƯƠNG MẠI, DỊCH VỤ, KHÁCH SẠN CẦU GIẤY - Trải nghiệm lưu trú đẳng cấp tại Cầu Giấy, Hà Nội",
       "address": "Số 18 ngách 6/41 phố Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội",
-      "email": "sharkdive05@gmail.com",
+      "email": "cghotel1206@gmail.com",
       "services": "Dịch vụ",
       "info": "Thông tin",
       "support": "Hỗ trợ",
@@ -82,6 +86,28 @@
         "detail": "Chi tiết →"
       }
     },
+    "rooms": {
+      "title": "Các Loại Phòng",
+      "subtitle": "Khám phá các loại phòng nghỉ đẳng cấp của chúng tôi",
+      "filterAll": "Tất cả",
+      "filterCapacity2": "Sức chứa: 2 người",
+      "filterCapacity4": "Sức chứa: 4 người",
+      "filterBedKing": "Loại giường: King",
+      "filterBedQueen": "Loại giường: Queen",
+      "viewDetails": "Xem chi tiết",
+      "deluxeSea": {
+        "title": "Phòng Deluxe Hướng Biển",
+        "price": "Từ 2.500.000 VNĐ / đêm"
+      },
+      "presidential": {
+        "title": "Suite Tổng Thống",
+        "price": "Từ 5.000.000 VNĐ / đêm"
+      },
+      "standard": {
+        "title": "Phòng Standard Cao Cấp",
+        "price": "Từ 1.800.000 VNĐ / đêm"
+      }
+    },
     "whyChoose": {
       "title": "Tại Sao Chọn CAUGIAY HST?",
       "dedication": {
@@ -117,11 +143,15 @@
     }
   },
   "contact": {
-    "pageTitle": "Liên Hệ Với Chúng Tôi",
-    "pageSubtitle": "Chúng tôi sẵn sàng tư vấn và hỗ trợ bạn",
+    "pageTitle": "Liên hệ với chúng tôi",
+    "pageSubtitle": "Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn 24/7.",
     "breadcrumb": "Liên hệ",
     "contactInfo": {
-      "title": "Thông Tin Liên Hệ",
+      "title": "Thông tin liên hệ",
+      "subtitle": "Kết nối với chúng tôi qua các kênh dưới đây.",
+      "addressLabel": "Địa chỉ",
+      "phoneLabel": "Số điện thoại",
+      "emailLabel": "Email",
       "address": "📍 Địa chỉ:",
       "phone": "📞 Điện thoại:",
       "email": "📧 Email:",
@@ -130,26 +160,20 @@
       "workingHours": "24/7 - Dịch vụ lưu trú và hỗ trợ khách hàng"
     },
     "map": {
-      "title": "Bản Đồ Chỉ Đường",
+      "title": "Tìm chúng tôi trên bản đồ",
       "address": "📍 Số 18 ngách 6/41 phố Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"
     },
     "form": {
-      "title": "Gửi Yêu Cầu Đặt Phòng/Tư Vấn",
+      "title": "Gửi yêu cầu cho chúng tôi",
+      "subtitle": "Điền vào biểu mẫu bên dưới và chúng tôi sẽ liên hệ lại với bạn sớm nhất.",
       "name": "Họ và tên *",
-      "namePlaceholder": "Nhập họ và tên của bạn",
+      "namePlaceholder": "Nguyễn Văn A",
       "phone": "Số điện thoại *",
-      "phonePlaceholder": "Nhập số điện thoại",
+      "phonePlaceholder": "(+84) 123 456 789",
       "email": "Email",
-      "emailPlaceholder": "Nhập địa chỉ email",
-      "service": "Loại yêu cầu",
-      "serviceSelect": "-- Chọn loại yêu cầu --",
-      "serviceBooking": "Đặt phòng",
-      "serviceConsultation": "Tư vấn dịch vụ",
-      "serviceOther": "Khác",
-      "checkin": "Ngày nhận phòng (nếu đặt phòng)",
-      "checkinPlaceholder": "Chọn ngày",
-      "message": "Nội dung yêu cầu *",
-      "messagePlaceholder": "Mô tả chi tiết yêu cầu của bạn...",
+      "emailPlaceholder": "email@example.com",
+      "message": "Nội dung tin nhắn",
+      "messagePlaceholder": "Nội dung bạn muốn trao đổi...",
       "submit": "Gửi yêu cầu"
     },
     "modal": {
@@ -201,6 +225,49 @@
     "pageTitle": "Dịch Vụ Lưu Trú & Tiện Ích",
     "pageSubtitle": "Trải nghiệm lưu trú đẳng cấp tại Cầu Giấy, Hà Nội",
     "breadcrumb": "Dịch vụ",
+    "featured": {
+      "title": "Trải Nghiệm Tiện Nghi Vượt Trội",
+      "subtitle": "Tại CAUGIAY HST, chúng tôi cam kết mang đến những tiện nghi hiện đại và dịch vụ tận tâm nhất, giúp mỗi khoảnh khắc của quý khách đều trở nên đáng nhớ.",
+      "spa": {
+        "title": "Khu Spa & Massage",
+        "desc": "Thư giãn và tái tạo năng lượng với các liệu pháp spa độc đáo",
+        "link": "Xem Chi Tiết →"
+      },
+      "restaurant": {
+        "title": "Nhà Hàng & Bar",
+        "desc": "Thưởng thức ẩm thực đẳng cấp với nguyên liệu tươi ngon",
+        "link": "Xem Thực Đơn →"
+      },
+      "pool": {
+        "title": "Hồ Bơi Vô Cực",
+        "desc": "Tận hưởng làn nước mát lạnh và cảnh quan thiên nhiên từ hồ bơi vô cực trên cao",
+        "link": "Khám Phá Thêm →"
+      },
+      "gym": {
+        "title": "Phòng Gym & Yoga",
+        "desc": "Trang thiết bị hiện đại và các lớp yoga chuyên nghiệp",
+        "link": "Xem Lịch Tập →"
+      }
+    },
+    "other": {
+      "title": "Các Dịch Vụ Khác",
+      "airport": {
+        "title": "Đưa Đón Sân Bay",
+        "desc": "Dịch vụ xe riêng sang trọng, tiện lợi và an toàn"
+      },
+      "events": {
+        "title": "Tổ Chức Sự Kiện",
+        "desc": "Địa điểm lý tưởng cho đám cưới, hội nghị và sự kiện"
+      },
+      "roomService": {
+        "title": "Dịch Vụ Tại Phòng",
+        "desc": "Dịch vụ 24/7 đáp ứng mọi yêu cầu của khách"
+      },
+      "tours": {
+        "title": "Tour Du Lịch",
+        "desc": "Khám phá vẻ đẹp địa phương với các tour được thiết kế riêng"
+      }
+    },
     "rooms": {
       "title": "🛏️ Phòng Ốc Tiện Nghi",
       "desc": "Phòng nghỉ sạch sẽ, hiện đại với đầy đủ tiện nghi, không gian thoáng đãng và ánh sáng tự nhiên. Mỗi phòng được trang bị đầy đủ để đảm bảo sự thoải mái và tiện nghi cho quý khách.",
@@ -315,6 +382,102 @@
       "desc": "Chúng tôi sẵn sàng tư vấn và hỗ trợ bạn",
       "contact": "Liên hệ ngay",
       "call": "Gọi: 024 32212666"
+    }
+  },
+  "gallery": {
+    "pageTitle": "Bộ Sưu Tập",
+    "pageSubtitle": "Khám phá vẻ đẹp sang trọng và tiện nghi đẳng cấp tại nhà nghỉ của chúng tôi.",
+    "breadcrumb": "Thư viện ảnh",
+    "filterAll": "Tất cả",
+    "filterInterior": "Nội thất",
+    "filterExterior": "Ngoại thất",
+    "filterAmenities": "Tiện ích",
+    "filterVideo": "Video",
+    "items": {
+      "presidential": {
+        "title": "Phòng Tổng thống sang trọng"
+      },
+      "poolView": {
+        "title": "View hồ bơi buổi hoàng hôn"
+      },
+      "lounge": {
+        "title": "Khu vực sảnh chờ thanh lịch"
+      },
+      "videoTour": {
+        "title": "Video tour toàn cảnh nhà nghỉ"
+      },
+      "bathroom": {
+        "title": "Phòng tắm tiện nghi hiện đại"
+      },
+      "garden": {
+        "title": "Khu vườn xanh mát"
+      },
+      "bar": {
+        "title": "Quầy bar cao cấp"
+      },
+      "gym": {
+        "title": "Phòng tập gym đầy đủ thiết bị"
+      },
+      "restaurant": {
+        "title": "Nhà hàng ẩm thực Á-Âu"
+      },
+      "exteriorNight": {
+        "title": "Ngoại thất về đêm"
+      },
+      "spa": {
+        "title": "Spa thư giãn"
+      },
+      "roomAmenities": {
+        "title": "Tiện ích trong phòng ngủ"
+      }
+    }
+  },
+  "booking": {
+    "pageTitle": "Hệ thống đặt phòng",
+    "pageSubtitle": "Trải nghiệm sự sang trọng và đặt phòng nghỉ dưỡng độc quyền của bạn một cách an toàn.",
+    "breadcrumb": "Đặt phòng",
+    "steps": {
+      "selectDate": "Chọn ngày",
+      "selectRoom": "Chọn phòng",
+      "guestInfo": "Thông tin khách",
+      "payment": "Thanh toán"
+    },
+    "widgetTitle": "1. Chọn ngày nhận và trả phòng",
+    "continue": "Tiếp tục"
+  },
+  "rooms": {
+    "pageTitle": "Các Loại Phòng Nghỉ",
+    "pageSubtitle": "Khám phá không gian nghỉ dưỡng đẳng cấp của chúng tôi",
+    "breadcrumb": "Phòng nghỉ",
+    "filterAll": "Tất cả",
+    "filterCapacity2": "Sức chứa: 2 người",
+    "filterCapacity4": "Sức chứa: 4 người",
+    "filterBedKing": "Loại giường: King",
+    "filterBedQueen": "Loại giường: Queen",
+    "viewDetails": "Xem chi tiết",
+    "deluxeSea": {
+      "title": "Phòng Deluxe Hướng Biển",
+      "price": "Từ 2.500.000 VNĐ / đêm"
+    },
+    "presidential": {
+      "title": "Suite Tổng Thống",
+      "price": "Từ 5.000.000 VNĐ / đêm"
+    },
+    "standard": {
+      "title": "Phòng Standard Cao Cấp",
+      "price": "Từ 1.800.000 VNĐ / đêm"
+    },
+    "family": {
+      "title": "Phòng Gia Đình Kết Nối",
+      "price": "Từ 3.500.000 VNĐ / đêm"
+    },
+    "penthouse": {
+      "title": "Penthouse Sang Trọng",
+      "price": "Từ 6.500.000 VNĐ / đêm"
+    },
+    "twin": {
+      "title": "Phòng Standard Twin",
+      "price": "Từ 1.500.000 VNĐ / đêm"
     }
   }
 }

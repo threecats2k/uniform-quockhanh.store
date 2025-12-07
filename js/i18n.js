@@ -121,13 +121,15 @@
 
     // Initialize i18n
     async function init() {
-        // Add language switcher to header
-        const headerContact = document.querySelector('.header-contact');
-        if (headerContact) {
-            const existingSwitcher = headerContact.querySelector('.language-switcher');
+        // Add language switcher to footer
+        const footer = document.querySelector('.footer');
+        const footerBottom = document.querySelector('.footer-bottom');
+        if (footer && footerBottom) {
+            const existingSwitcher = footer.querySelector('.language-switcher');
             if (!existingSwitcher) {
                 const switcher = createLanguageSwitcher();
-                headerContact.insertBefore(switcher, headerContact.firstChild);
+                // Insert before footer-bottom
+                footerBottom.parentNode.insertBefore(switcher, footerBottom);
                 
                 // Add event listeners to language buttons
                 switcher.querySelectorAll('.lang-btn').forEach(btn => {

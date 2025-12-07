@@ -59,7 +59,7 @@
             "name": "CÔNG TY TNHH THƯƠNG MẠI, DỊCH VỤ, KHÁCH SẠN CẦU GIẤY",
             "alternateName": "CAUGIAY HST CO.,LTD",
             "telephone": "+84-24-32212666",
-            "email": "sharkdive05@gmail.com",
+            "email": "cghotel1206@gmail.com",
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Số 18 ngách 6/41 phố Trần Quốc Hoàn",
@@ -100,38 +100,36 @@
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <div class="header-top">
-                <div class="logo">
-                    <a href="index.html" style="display: flex; align-items: center; gap: 15px; text-decoration: none;">
-                        <img src="images/logo_header.png" alt="CAUGIAY HST CO.,LTD" style="max-height: 80px; width: auto;">
-                        <div class="logo-text">
-                            <h1 data-i18n="common.logo">CAUGIAY HST CO.,LTD</h1>
-                            <p class="tagline" data-i18n="common.tagline">Tận Tâm - Chất Lượng - Tiện Nghi</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="header-contact">
-                    <a href="tel:02432212666" class="phone-link">📞 <span data-i18n="common.phone">024 32212666</span></a>
-                    <a href="contact.html" class="btn btn-primary" data-i18n="common.contactNow">Đặt phòng ngay</a>
-                </div>
+            <div class="logo">
+                <a href="index.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+                    <img src="images/logo_header.png" alt="CAUGIAY HST CO.,LTD" style="max-height: 60px; width: auto;">
+                    <div class="logo-text">
+                        <h1 data-i18n="common.logo">CAUGIAY HST CO.,LTD</h1>
+                        <p class="tagline" data-i18n="common.tagline">Tận Tâm - Chất Lượng - Tiện Nghi</p>
+                    </div>
+                </a>
             </div>
             <nav class="navbar">
                 <ul class="nav-menu">
                     <li><a href="index.html" data-i18n="common.nav.home">Trang chủ</a></li>
-                    <li><a href="about.html" data-i18n="common.nav.about">Giới thiệu</a></li>
+                    <li><a href="rooms.html" data-i18n="common.nav.rooms">Phòng nghỉ</a></li>
                     <li><a href="services.html" data-i18n="common.nav.services">Dịch vụ</a></li>
+                    <li><a href="gallery.html" data-i18n="common.nav.gallery">Thư viện ảnh</a></li>
                     <li><a href="contact.html" class="active" data-i18n="common.nav.contact">Liên hệ</a></li>
                 </ul>
                 <button class="mobile-menu-toggle" aria-label="Toggle menu" data-i18n-aria-label="common.nav.menu">☰</button>
             </nav>
+            <div class="header-contact">
+                <a href="contact.html" class="btn btn-primary" data-i18n="common.contactNow">Đặt phòng ngay</a>
+            </div>
         </div>
     </header>
 
     <!-- Page Header -->
     <section class="page-header">
         <div class="container">
-            <h1 data-i18n="contact.pageTitle">Liên Hệ Với Chúng Tôi</h1>
-            <p data-i18n="contact.pageSubtitle">Chúng tôi sẵn sàng tư vấn và hỗ trợ bạn</p>
+            <h1 data-i18n="contact.pageTitle">Liên hệ với chúng tôi</h1>
+            <p data-i18n="contact.pageSubtitle">Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn 24/7.</p>
         </div>
     </section>
 
@@ -148,94 +146,75 @@
     <!-- Contact Content -->
     <section class="content-section">
         <div class="container">
-            <div class="contact-layout" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 60px;">
+            <div class="contact-layout">
                 <!-- Contact Info -->
-                <div>
-                    <h2 data-i18n="contact.contactInfo.title">Thông Tin Liên Hệ</h2>
-                    <div class="company-info-card" style="margin-top: 30px;">
-                        <div class="info-row">
-                            <div class="info-label" data-i18n="contact.contactInfo.address">📍 Địa chỉ:</div>
-                            <div class="info-value" data-i18n="common.footer.address">Số 18 ngách 6/41 phố Trần Quốc Hoàn,<br>Phường Dịch Vọng Hậu, Quận Cầu Giấy,<br>Thành phố Hà Nội, Việt Nam</div>
+                <div class="contact-info-section">
+                    <h2 data-i18n="contact.contactInfo.title">Thông tin liên hệ</h2>
+                    <p data-i18n="contact.contactInfo.subtitle">Kết nối với chúng tôi qua các kênh dưới đây.</p>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4 data-i18n="contact.contactInfo.addressLabel">Địa chỉ</h4>
+                            <p data-i18n="common.footer.address">Số 18 ngách 6/41 phố Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội</p>
                         </div>
-                        <div class="info-row">
-                            <div class="info-label" data-i18n="contact.contactInfo.phone">📞 Điện thoại:</div>
-                            <div class="info-value"><a href="tel:02432212666" data-i18n="common.phone">024 32212666</a></div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h4 data-i18n="contact.contactInfo.phoneLabel">Số điện thoại</h4>
+                            <p><a href="tel:02432212666" data-i18n="common.phone">024 32212666</a></p>
                         </div>
-                        <div class="info-row">
-                            <div class="info-label" data-i18n="contact.contactInfo.email">📧 Email:</div>
-                            <div class="info-value"><a href="mailto:sharkdive05@gmail.com" data-i18n="common.footer.email">sharkdive05@gmail.com</a></div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4 data-i18n="contact.contactInfo.emailLabel">Email</h4>
+                            <p><a href="mailto:cghotel1206@gmail.com" data-i18n="common.footer.email">cghotel1206@gmail.com</a></p>
                         </div>
-                        <div class="info-row">
-                            <div class="info-label" data-i18n="contact.contactInfo.hours">🕒 Thời gian phục vụ:</div>
-                            <div class="info-value" data-i18n="contact.contactInfo.workingHours">
-                                24/7 - Dịch vụ lưu trú và hỗ trợ khách hàng
-                            </div>
-                        </div>
-                        <div class="info-row">
-                            <div class="info-label" data-i18n="contact.contactInfo.taxId">🏢 MST:</div>
-                            <div class="info-value">0108599237</div>
-                        </div>
+                    </div>
+
+                    <h3 style="margin-top: 40px; color: var(--text-primary);" data-i18n="contact.map.title">Tìm chúng tôi trên bản đồ</h3>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.1234567890123!2d105.7833!3d21.0333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDAxJzU5LjkiTiAxMDXCsDQ3JzAwLjAiRQ!5e0!3m2!1svi!2s!4v1234567890123!5m2!1svi!2s" 
+                            width="100%" 
+                            height="400" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Bản đồ chỉ đường đến CAUGIAY HST">
+                        </iframe>
                     </div>
                 </div>
 
                 <!-- Contact Form -->
                 <div>
-                    <h2 data-i18n="contact.form.title">Gửi Yêu Cầu Tư Vấn</h2>
+                    <h2 data-i18n="contact.form.title">Gửi yêu cầu cho chúng tôi</h2>
+                    <p data-i18n="contact.form.subtitle">Điền vào biểu mẫu bên dưới và chúng tôi sẽ liên hệ lại với bạn sớm nhất.</p>
                     <form class="contact-form" id="contactForm" style="margin-top: 30px;">
                         <div class="form-group">
                             <label for="name" data-i18n="contact.form.name">Họ và tên *</label>
-                            <input type="text" id="name" name="name" required data-i18n-placeholder="contact.form.namePlaceholder" placeholder="Nhập họ và tên của bạn">
-                        </div>
-                        <div class="form-group">
-                            <label for="phone" data-i18n="contact.form.phone">Số điện thoại *</label>
-                            <input type="tel" id="phone" name="phone" required data-i18n-placeholder="contact.form.phonePlaceholder" placeholder="Nhập số điện thoại">
+                            <input type="text" id="name" name="name" required data-i18n-placeholder="contact.form.namePlaceholder" placeholder="Nguyễn Văn A">
                         </div>
                         <div class="form-group">
                             <label for="email" data-i18n="contact.form.email">Email</label>
-                            <input type="email" id="email" name="email" data-i18n-placeholder="contact.form.emailPlaceholder" placeholder="Nhập địa chỉ email">
+                            <input type="email" id="email" name="email" data-i18n-placeholder="contact.form.emailPlaceholder" placeholder="email@example.com">
                         </div>
                         <div class="form-group">
-                            <label for="company" data-i18n="contact.form.company">Công ty/Tổ chức</label>
-                            <input type="text" id="company" name="company" data-i18n-placeholder="contact.form.companyPlaceholder" placeholder="Nhập tên công ty/tổ chức">
+                            <label for="phone" data-i18n="contact.form.phone">Số điện thoại *</label>
+                            <input type="tel" id="phone" name="phone" required data-i18n-placeholder="contact.form.phonePlaceholder" placeholder="(+84) 123 456 789">
                         </div>
                         <div class="form-group">
-                            <label for="service" data-i18n="contact.form.service">Loại yêu cầu</label>
-                            <select id="service" name="service">
-                                <option value="" data-i18n="contact.form.serviceSelect">-- Chọn loại yêu cầu --</option>
-                                <option value="booking" data-i18n="contact.form.serviceBooking">Đặt phòng</option>
-                                <option value="consultation" data-i18n="contact.form.serviceConsultation">Tư vấn dịch vụ</option>
-                                <option value="other" data-i18n="contact.form.serviceOther">Khác</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="checkin" data-i18n="contact.form.checkin">Ngày nhận phòng (nếu đặt phòng)</label>
-                            <input type="date" id="checkin" name="checkin" data-i18n-placeholder="contact.form.checkinPlaceholder">
-                        </div>
-                        <div class="form-group">
-                            <label for="message" data-i18n="contact.form.message">Nội dung yêu cầu *</label>
-                            <textarea id="message" name="message" rows="5" required data-i18n-placeholder="contact.form.messagePlaceholder" placeholder="Mô tả chi tiết yêu cầu của bạn..."></textarea>
+                            <label for="message" data-i18n="contact.form.message">Nội dung tin nhắn</label>
+                            <textarea id="message" name="message" rows="5" required data-i18n-placeholder="contact.form.messagePlaceholder" placeholder="Nội dung bạn muốn trao đổi..."></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary" style="width: 100%;" data-i18n="contact.form.submit">Gửi yêu cầu</button>
                     </form>
                 </div>
-            </div>
-
-            <!-- Google Maps -->
-            <div style="margin-top: 60px;">
-                <h2 data-i18n="contact.map.title">Bản Đồ Chỉ Đường</h2>
-                <div style="width: 100%; height: 400px; background-color: var(--bg-light); border-radius: 10px; margin-top: 20px; overflow: hidden;">
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.1234567890123!2d105.7833!3d21.0333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDAxJzU5LjkiTiAxMDXCsDQ3JzAwLjAiRQ!5e0!3m2!1svi!2s!4v1234567890123!5m2!1svi!2s" 
-                        width="100%" 
-                        height="400" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade"
-                        title="Bản đồ chỉ đường đến CAUGIAY HST">
-                    </iframe>
-                </div>
-                <p style="margin-top: 15px; color: var(--text-light); font-size: 0.95rem;" data-i18n="contact.map.address">📍 Số 18 ngách 6/41 phố Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội</p>
             </div>
         </div>
     </section>
@@ -250,7 +229,7 @@
                     <div class="footer-contact">
                         <p>📍 <span data-i18n="common.footer.address">Số 18 ngách 6/41 phố Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội</span></p>
                         <p>📞 <a href="tel:02432212666" data-i18n="common.phone">024 32212666</a></p>
-                        <p>📧 <a href="mailto:sharkdive05@gmail.com" data-i18n="common.footer.email">sharkdive05@gmail.com</a></p>
+                        <p>📧 <a href="mailto:cghotel1206@gmail.com" data-i18n="common.footer.email">cghotel1206@gmail.com</a></p>
                     </div>
                 </div>
                 <div class="footer-col">
