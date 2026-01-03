@@ -3,6 +3,7 @@ google.com, pub-3850749456614322, DIRECT, f08c47fec0942fa0
 google.com, pub-5654944015696862, DIRECT, f08c47fec0942fa0
 google.com, pub-5282361912220686, DIRECT, f08c47fec0942fa0
 facebook.com, 783748770469272, DIRECT, c3e20eee3f780d68
+facebook.com, 741665132113818, DIRECT, c3e20eee3f780d68
 applovin.com, e01f6f7869e8c95d6734b889f83a82d9, DIRECT
 algorix.co, 60532, RESELLER, 5b394c12fea27a1d
 contextweb.com, 562615, RESELLER, 89ff185a4c4e857c
